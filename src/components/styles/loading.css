@@ -1,0 +1,31 @@
+
+.loading {
+  min-height: 100vh;
+  width: 100vw;
+  background-color:#00000010;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charge {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  border: solid 0.1em;
+  border-bottom: none;
+  border-right: none;
+  border-color: skyblue;
+
+  animation: animationLoading 1s infinite;
+}
+
+@keyframes animationLoading {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(365deg);
+  }
+}
