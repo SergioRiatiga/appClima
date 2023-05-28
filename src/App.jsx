@@ -2,8 +2,8 @@ import { useEffect, useState } from 'react'
 import './App.css'
 import axios from 'axios'
 import getApiKey from './utils/getApiKey'
-import WeatherCard from './components/weatherCard'
-import Loading from './components/loading'
+import WeatherCard from './components/WeatherCard'
+import Loading from './components/Loading'
 
 function App() {
 
